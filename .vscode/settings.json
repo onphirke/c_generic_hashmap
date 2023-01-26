@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "intmaplist.h": "c",
+        "hashmap.h": "c",
+        "string.h": "c",
+        "libc-header-start.h": "c",
+        "cstring": "c",
+        "*.txx": "c",
+        "stdlib.h": "c",
+        "cstdio": "c"
+    }
+}
