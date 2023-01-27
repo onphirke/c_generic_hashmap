@@ -1,9 +1,9 @@
 
 
-#include "HashMap.h"
+// #include "HashMap.h"
 #include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
+// #include <string.h>
+// #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
     // integer testing
@@ -14,6 +14,8 @@ int main(int argc, char *argv[]) {
     // char *mapString = HashMap_toString(map, HashMap_template_INTEGER_toString, HashMap_template_INTEGER_toString);
     // printf("%s", mapString);
     // printf("\n\n");
+
+
 
     HashMap *map = HashMap_new(STRING_HashMapKeySpecifier, STRING_HashMapValueSpecifier);
     for(int i = 0; i < argc; i++) {
